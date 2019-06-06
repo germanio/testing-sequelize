@@ -1,0 +1,40 @@
+{
+  "name": "testing-sequelize",
+  "version": "0.0.1",
+  "description": "Testing Sequelize with Sinon",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm local.app.js",
+    "test": "jasmine --config=tests/spec/support/jasmine.json",
+    "lint": "./node_modules/.bin/eslint --color ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germanio/testing-sequelize"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "sinon",
+    "unit testing"
+  ],
+  "author": "Germán Hohmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/germanio/testing-sequelize/issues"
+  },
+  "homepage": "https://github.com/germanio/testing-sequelize#README",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.15.1",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.1"
+  }
+}
